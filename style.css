@@ -151,6 +151,11 @@ h5{
 }
 
 
+.eating{
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+  margin-left: 220px;
+}
 
 .ingredients {
   background: #B5D99C;
