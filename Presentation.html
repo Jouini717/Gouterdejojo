@@ -3,20 +3,152 @@
 <head>
 	<title>Présentation</title>
 
-		<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Titre / H1 -->
+
+  <title>Le Goûter de Jojo !</title>
+
+
+	<!-- Police Titre (H1, H2,...) -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+
+	<!-- Font awesome-->
+
+	<script src="https://kit.fontawesome.com/620b46c700.js" crossorigin="anonymous"></script>
+
+	
+	<!-- Police : Body / Corps "Dosis" -->
+
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
+
+
+ 	 <!-- Bootstrap -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- STYLE Très Important (NE PAS DÉPLACER)-->
+
+	<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
 
+<!--  FlexBox (truc coloré)  -->
+
+
+<div class="line-transparent">
+    <div class="line-hard"></div>
+    <div class="line-medium"></div>
+    <div class="line-light"></div>
+  </div>
+
+<!-- Navbar (menu)  -->
+
+
+<div class="my-navbar">
+    <img src="images/logo.png" class="logo">
+    <div class="links">
+      <a href="https://www.ebony.com/wp-content/uploads/2016/07/Woman_Baking_original_14185.jpg" target="_blank" class="link">Qui sommes-nous ?</a>
+      <a href="https://www.youtube.com/channel/UCJFp8uSYCjXOMnkUyb3CQ3Q" target="_blank" class="link">Notre chaîne Youtube</a>
+
+      <!-- Button trigger modal -->
+
+      <button type="button" class="my-btn" data-toggle="modal" data-target="#exampleModal">
+        Contact
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="images/logo.png" class="logo-modal">
+              <h3 class="color-green">Le Goûter de Jojo !</h3>
+              <p>Téléphone : +33 6 55 98 78 12</p>
+              <p>Mail : contact@gouter-jojo.com</p>
+              <p>Retrouvez-nous sur : </p>
+              <div>
+                <a class="socials" href="">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+                <a class="socials" href="">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a class="socials" href="">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+
+
+<!-- Navbar (menu)  -->
+
+
 <div class="cadre"> 
 	
-	<H1> Présentation </H1>
+	<H3> <i class="fas fa-heart"></i> Présentation </H3>
 	<br>
-	<p>Hello !</p>
+	<p>Bonjour et bienvenue !</p>
+  <img src="images/presentation.jpg" class="presentation" width="700px" height="500px">
+  <br>
+  <br>
+
+
 </div>
 
 
 
+<!-- Footer -->
+
+
+<div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    Johanna Lecuyer Birinda / EFAP 2 Groupe 2 <i class="fas fa-heart"></i>
+  </div>
+</div>
+
+
+<!-- JAVA Script (PAS TOUCHER !) -->
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script>
+    (function() {
+      var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/";
+      if(!gi.call(d,id)){
+        js=ce.call(d,"script");
+        js.id=id;
+        js.src=b+"embed.js";
+        q=gt.call(d,"script")[0];
+        q.parentNode.insertBefore(js,q)
+      }
+    })()
+  </script>
 
 
 
